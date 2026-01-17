@@ -20,6 +20,7 @@
     "morgan": "~1.9.1",
     "node-cron": "^4.0.3",
     "nodemailer": "^6.8.0",
+    "resend": "^4.0.0",
     "nodemon": "^2.0.20",
     "speakeasy": "^2.0.0",
     "uuid": "^9.0.0"
