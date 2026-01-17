@@ -57,7 +57,7 @@ const sendEmail = async ({ to, subject, title, bodyHtml }) => {
   const html = buildEmailTemplate({ title, bodyHtml });
 
   const { error } = await resend.emails.send({
-    from: process.env.EMAIL_FROM,
+    from:"support@paidstocks.com",
     to,
     subject,
     html,
